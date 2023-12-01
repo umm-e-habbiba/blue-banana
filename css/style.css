@@ -1,0 +1,1499 @@
+  /* start welcome animation */
+  @font-face {
+    font-family: "Arial Rounded MT Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Arial Rounded MT Bold"),
+        url(../font/ARLRDBD.ttf) format("truetype");   }
+  body {
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-family: "Arial Rounded MT Bold";
+    overflow-x: hidden;
+  }
+  .w-200{
+      width: 200px !important;
+  }
+  .w-220{
+      width: 220px !important;
+  }
+  .pb-25{
+      padding-bottom: 25px;
+  }
+  .pr-25{
+      padding-right: 25px;
+  }
+  .pl-10{
+      padding-left: 10px;
+  }
+  .pl-25{
+      padding-left: 25px;
+  }
+  .pl-130{
+      padding-left: 130px;
+  }
+  .pl-330{
+      padding-left: 330px;
+  }
+  .pl-80{
+      padding-left: 70px;
+  }
+  .p-r{
+      position: relative;
+  }
+  .p-a{
+      position: absolute;
+  }
+  .pt-50{
+      padding-top: 50px !important;
+  }
+  .pt-550{
+      padding-top: 550px !important;
+  }
+  .fs-10{
+      font-size: 10px !important;
+  }
+  .fs-11{
+      font-size: 11px !important;
+  }
+  .fs-13{
+    font-size: 13px;
+}
+  .fs-15{
+      font-size: 15px;
+  }
+  .fs-17{
+      font-size: 17px;
+  }
+  .fs-20{
+      font-size: 20px !important;
+  }
+  .fs-30{
+      font-size: 30px !important;
+  }
+  .mb-0{
+      margin-bottom: 0px;
+  }
+  .mt-30{
+      margin-top: 30px;
+  }
+  .mt-35{
+      margin-top: 35px;
+  }
+  .mt-45{
+      margin-top: 45px;
+  }
+  .mt-20{
+      margin-top: 20px;
+  }
+  .mt-60{
+      margin-top: 60px;
+  }
+  .mt-60{
+      margin-top: 60px;
+  }
+  .mt--20{
+      margin-top: -20px;
+  }
+  .ml-20{
+      margin-left: 20px;
+  }
+  .mr-420{
+      margin-right: 420px;
+  }
+  .blue{
+      color: #247AE2;
+      font-size: larger;
+  }
+  .yellow{
+      color: #FED300;
+      font-size: large;
+  }
+  .justify-evenly{
+      justify-content: space-evenly;
+  }
+  .z-1{
+      z-index: 1;
+  }
+  .z-2{
+      z-index: 2;
+  }
+  .z-3{
+      z-index: 3;
+  }
+ .header-main{
+     display: flex;
+    background: transparent url('../images/slides22.png') 0% 0% no-repeat padding-box;  width: 100%;
+    height: 800px;
+    align-self: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+ }
+ .header-bar{
+    height: 131px;
+    padding-right: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: #b3b3b34f;
+    backdrop-filter: blur(20px);
+ }
+ .work-header-main , .contact-page-header{
+    background: transparent url('../images/Path 81.png') 0% 0% no-repeat padding-box;  
+    width: 100%;
+    height: 300px;
+    /* position: fixed; */
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+ }
+ .header-line{
+     width: 900px;
+     margin-top: 25px;
+ }
+ .blue-line{
+     width: 900px;
+     margin-top: 40px;
+     border-top: 3px solid #247AE2;
+ }
+  .navbar-dark .navbar-nav .nav-link a.active{
+     color: #247AE2 !important;
+ }
+  .navbar-dark .navbar-nav .nav-link a{
+     color: white !important;
+ }
+ .header-logo{
+     width: 190px;
+     height: 72px;
+     margin-left: 97px;
+ }
+ .navbar-dark .navbar-toggler-icon{
+    background-image: none;
+ }
+ .navbar-toggler{
+     
+     background: transparent;
+     border: none;
+     margin-right: -70px;
+	 position:absolute;
+	 z-index:1;
+	 left:300px;
+ }
+ .navbar-toggler i{
+     
+    color:#247AE2; 
+    font-size:30px;
+ }
+
+ .work-navbar{
+     margin-left: 90px;
+     margin-right: 90px;
+     padding-top: 30px;
+ }
+ .work-header-logo{
+     width: 190px;
+     height: 72px;
+ }
+ .work-heading{
+     font-size: 150px;
+     margin-top: 70px;
+ }
+ .blue-curve-top{
+left: -170px;
+width: 250px;
+top: -90px;
+ }
+ /* .blue-curve-bot{
+right: 5px;
+ } */
+ .work-container{
+     top: 450px;
+     left: 20px;
+ }
+ .tabs{
+     padding: 70px 180px 10px 180px;
+     margin-left: 70px;
+ }
+ .work-tabs{
+     border: none;
+ }
+ .nav-link.work-tab.active{
+     background: #247AE2;
+     color: #FED300;
+     border-radius: 30px;
+     padding: 0px 15px;
+ }
+ .work-tab{
+     color: #FED300;
+     padding: 0px 15px;
+ }
+ .work-tab:hover{
+    background: #247AE2;
+    color: #FED300;
+    border-radius: 30px;
+ }
+ .h-0{
+     height: 0px;
+ }
+ .work-row{
+     padding: 20px 80px;
+ }
+ .work-row-2{
+     padding: 0px 80px;
+ }
+ 
+ .img-wrapper {  
+    overflow: hidden; 
+  }
+  
+  .inner-img {
+    transition: 0.3s;
+    width: 365px;
+    border-radius: 30px;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.1);
+  }
+  .overlay{ 
+      position: absolute;
+      padding: 30px;
+      bottom: -240px;
+      width: 365px;
+      height: 240px;
+      border-radius: 30px;
+      background: rgba(0,0,0,0.6);
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: left;
+      opacity: 0;
+      transition: opacity 0.25s;
+  }
+  .overlay-txt{
+    transform: translateY(120px);
+  }
+  .overlay:hover{
+      opacity: 1;
+  }
+ .unleash-text{
+     position: absolute;
+     color: white;
+     left: 700px;
+    
+ }
+ .inside-img{
+     width: 96px;
+     /*height: 215px;*/
+ }
+ .inside-heading{
+    font-size: 70px;
+    color: #247AE2;
+    background: url('../images/curve.png');
+    background-repeat: no-repeat;
+    background-position-x: 583px;
+    background-size: 76px;
+    height: 120px;
+    background-position-y: 2px;
+    padding-top: 10px;
+ }
+ .inside-text{
+     color: #247AE2;
+     text-align: center;
+     font-size: 20px;
+     margin: 40px 200px 40px 200px;
+ }
+ .team{
+     color: #FED300;
+     font-size: 45px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+ .rectangle{
+     margin-top: 180px;
+     position: relative;
+     /* background-image: url('../images/Rectangle\ 4.png'); */
+     background-color: #247AE2;
+     width: 100%;
+     height: 1200px;
+     margin-bottom: 100px;
+    border-radius: 0px 0px 150px 150px;
+ }
+ .team-img{
+     /*width: 380px;
+     height: 380px;*/
+ }
+.team-carousel{
+    margin-top: -10px;
+}
+.client-carousel{
+    display: block;
+    padding: 50px 140px;
+}
+.client-carousel .owl-nav button.owl-next{
+	  background: transparent !important;
+  color: white !important;
+  cursor: pointer;
+font-size: 60px !important;
+position: absolute;
+right:25px;
+top: 50px;
+
+}
+.client-carousel .owl-nav button.owl-prev{
+	  background: transparent !important;
+  color: white !important;
+  cursor: pointer;
+font-size: 60px !important;
+position: absolute;
+left:25px;
+top: 50px;
+
+}
+
+.team-carousel .owl-nav button.owl-next{
+	  background: transparent !important;
+  color: red !important;
+  cursor: pointer;
+font-size: 60px !important;
+position: absolute;
+right:25px;
+top: 50px;
+
+}
+.team-carousel .owl-nav button.owl-prev{
+	  background: transparent !important;
+  color: red !important;
+  cursor: pointer;
+font-size: 60px !important;
+position: absolute;
+left:25px;
+top: 50px;
+
+}
+.client-icon{
+    width: 150px;
+}
+.owl-dots{
+    display: none;
+}
+ .team-card{
+     width: 100%;
+     background: transparent;
+     border: none;
+     /* top: -200px; */
+ }
+ .card-txt{
+     font-size: 30px;
+ }
+ .solutions{
+    top: 450px;
+ }
+ .sol-heading{
+    font-size: 70px;
+    color: white;
+    background: url('../images/curve.png');
+    background-repeat: no-repeat;
+    background-position-x: 583px;
+    background-size: 76px;
+    height: 120px;
+    background-position-y: 2px;
+    padding-top: 10px;
+ }
+ .sol-row{
+     top: 700px;
+ }
+ .w-110{
+     width: 110px;
+ }
+ .w-120{
+     width: 120px;
+ }
+ .sol-icon{
+    height: 100px; 
+    margin-bottom: 20px;
+    width: 120px;
+ }
+ .lets{
+     background-color: #FED300;
+     color: white;
+     border-radius: 50px;
+     padding:20px;
+     position: absolute;
+     bottom: -30px;
+     border: none;
+     left: 30%;
+     font-size: 25px;
+ }
+ .lets:hover{
+    background-color: white;
+    color: #FED300;
+    border: none;
+ }
+ .portfolio-btn{
+     background-color: #FED300;
+     color: #247AE2;
+     border-radius: 50px;
+     padding:15px;
+     margin-top: -30px;
+     border: none;
+     font-size: 30px;
+     width: 350px;
+ }
+ .portfolio-btn:hover{
+    background-color: white;
+    color: #FED300;
+    border: none;
+ }
+ .portfolio-btn a:hover{
+     text-decoration: none;
+     color: #FED300;
+ }
+ .modal.show .modal-dialog{
+    margin-top: 200px !important;
+    margin-left: 100px;
+}
+ .contact-modal{
+     background: transparent;
+     border: none;
+     margin-left: 300px;
+ }
+ .contact-body{
+     background-color:  #FED300;
+     border-radius: 30px;
+     padding: 40px;
+ }
+ .contact-close{
+     float: right;
+     /* color:#FED300; */
+     margin-bottom: 20px;
+     width: 20px !important;
+     opacity: 1 !important;
+
+ }
+ .contact-close:focus{
+     border: none;
+     outline: none !important;
+ }
+ .contact-txt{
+     color: #247AE2;
+ }
+ .contact-field{
+     border: none;
+     border-bottom: 2px solid white;
+     background: transparent;
+     margin-top: -20px;
+ }
+ .contact-field:focus{
+     background: transparent;
+     border: none;
+     box-shadow: none;
+     outline: none;
+     border-bottom: 2px solid white;
+
+ }
+ .contact-btn{
+     background-color: #247AE2;
+     border-radius: 30px;
+     width: 90px;
+     margin-top: 20px;
+ }
+ .contact-btn:hover{
+     background-color: #FED300;
+     color: #247AE2;
+ }
+ .contact-now-btn{
+     background-color: #247AE2;
+     border-radius: 30px;
+     margin-top: 20px;
+ }
+ .contact-now-btn:hover{
+     background-color: #FED300;
+     color: #247AE2;
+ }
+ .work-col{
+     padding-left: 130px;
+ }
+ .work-head{
+    font-size: 110px;
+ }
+ .blue-box{
+float: right;
+right: 0px;
+width: 350px;
+ }
+ .happy-cloud{
+     top: 40px;
+     width: 600px;
+     height: 400px;
+     float: right;
+     right: 12px;
+
+ }
+ .yellow-curve{
+float: left;
+left: 50px;
+top: -120px;
+width: 750px;
+z-index: -1;
+ }
+ .a-c{
+     top: 100px;
+     width: 600px;
+     height: 400px;
+     float: left;
+    left: 12px;
+
+ }
+ .brand-row{
+    margin-top: -190px;
+ }
+
+ .rectangle2{
+    margin-top: 180px;
+    position: relative;
+    background-color: #247AE2;
+    /* background-image: url('../images/Rectangle\ 4.png'); */
+    width: 100%;
+    height: 450px;
+    margin-bottom: 100px;
+   border-radius: 150px 150px 0px 0px;
+}
+.cl-img{
+    margin-left: 400%; 
+    margin-top: 30%;
+}
+.client-heading{
+    font-size: 70px;
+    color: white;
+    background: url('../images/curve.png');
+    background-repeat: no-repeat;
+    background-position-x: 583px;
+    background-size: 76px;
+    height: 120px;
+    background-position-y: 2px;
+    padding-top: 10px;
+ }
+ .blue-curve{
+width: 300px;
+margin-left: 650px;
+ }
+ .contact {
+    width: 600px;
+    margin-top: -250px;
+    margin-left: 400px;
+}
+ .contact-form{
+    background-color:  #FED300;
+    border-radius: 30px;
+    padding: 40px 80px;
+    width: 600px;
+}
+
+.stamp{
+    float: left;
+    left: 320px;
+    width: 150px;
+    margin-top: 70px;
+}
+.footer{
+    background-image: url('../images/Rectangle 13.png');
+    margin-top: 200px;
+    width: 100%;
+    height: 420px;
+    position: relative;
+    margin-bottom: 0px;
+}
+.footer-logo{
+    margin-top: -50px;
+    width: 120px;
+}
+
+.footer-content{
+    padding-top: 40px;
+    width: 300px;
+}
+.social-icon{
+    height: 25px;
+}
+.footer-field{
+    border: none;
+    border-bottom: 2px solid #247AE2;
+    background: transparent;
+    margin-top: -20px;
+    width: 80%;
+    color: #247AE2;
+}
+.footer-field::placeholder{
+    color: #247AE2;
+    font-size: 14px;
+}
+.footer-field:focus{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #247AE2;
+}
+.footer-contact-btn{
+    background-color: transparent;
+    border-radius: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border: 2px solid #247AE2;
+    color: #247AE2;
+    padding: 0px;
+}
+.footer-copyright{
+    margin-top: 60px;
+    font-size: 11px;
+    color: #247AE2;
+}
+.pr-dialog{
+    margin: 120px 60px;
+    max-width: 1100px !important;
+}
+.pr-content{
+    background:transparent;
+    border: none;
+    width: 100%;
+    margin: 40px 20px;
+}
+.pr-body{
+    background-color: #247AE2;
+    border-radius: 20px;
+    padding: 30px;
+}
+.pr-image{
+    width: inherit;
+    border-radius: 20px;
+}
+.pr-btn{
+    background: white;
+    border: 2px solid #FED300;
+    border-radius: 30px;
+    width: 150px;
+    margin: 20px;
+}
+.pr-row-two{
+    border-radius: 15px;
+    margin: 40px 80px;
+    background-color: #fff7ff;
+}
+.pr-row-three{
+    border-radius: 15px;
+    margin: 20px 80px;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.yellow-circle{
+    background-color: #E1CC4E;
+}
+.blue-circle{
+    background-color: #00B2DA;
+}
+.red-circle{
+    background-color: #F27D90;
+}
+.green-circle{
+    background-color: #64BE78;
+}
+.black-circle{
+    background-color: #4D4A47;
+}
+.pr-logo{
+    /* height: 100px; */
+}
+.project-images{
+    padding: 30px 100px;
+}
+.pr-project-img{
+    width: 350px;
+    height: 250px;
+    padding: 5px;
+}
+#contact-message{
+    display: none;
+}
+.y-curve{
+    transform: rotate(60deg);
+    position: relative;
+    width: 250px;
+    margin-left: -600px;
+}
+.thanks-message{
+    background: #247AE2;
+    border-radius: 30px;
+    position: absolute;
+    padding: 40px;
+    width: 800px;
+    height: 180px;
+    margin-left: 300px;
+    margin-top: -260px;
+    font-size: 30px;
+}
+.contact-stamp{
+    margin-top: -80px;
+    right: 230px;
+}
+.content {
+    position: relative;
+    width: 90%;
+    border-radius: 30px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: #247AE2;
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    border-radius: 30px;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+    border-radius: 30px;
+  }
+  .content:hover{
+    border-radius: 30px;
+  }
+  
+  .content-image{
+    width: 100%;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+  .content-details {
+    position: absolute;
+    padding: 1em;
+    width: 100%;
+    top: 55%;
+    left: 5%;
+    opacity: 0;
+    border-radius: 30px;
+  }
+  .contact-page-details{
+    position: absolute;
+    padding: 0px;
+    width: 100%;
+    top: 55%;
+    left: 55% !important;
+    opacity: 0;
+    border-radius: 30px;
+    
+  }
+  .content:hover .content-details{
+    opacity: 1;
+    border-radius: 30px;
+  }  
+  .content:hover .content-image{
+    border-radius: 30px;
+      opacity: 0.5;
+    transform: scale(1.1);
+  }
+  .content:hover .contact-page-details{
+    opacity: 1;
+    border-radius: 30px;
+  } 
+  .splash-one{
+      background-image: url('../images/Rectangle 1.PNG');
+           width: 100vw;
+           height: 100vh;
+      position: absolute;
+      margin-top: 0;
+      transition: top 800ms;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: block;
+  }
+  .splash-two{
+      background-image: url('../images/Group\ 1.png');
+           width: 100vw;
+      height: 100vh;
+      position: relative;
+      margin-top: 0;
+      transition: top 800ms;
+      display: none;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  }
+  .splash-logo{
+      position: absolute;
+      width: 220px;
+      top: 235px;
+      left: 260px;
+      /* animation-name: FadeIn;
+  animation-duration: 3s;
+       */
+  }
+  /* @keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  .splash-three{
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      display: none;
+      margin-top: 0;
+      position: relative;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  }
+  .sliding-logo{
+      position: absolute;
+     width: 200px;
+     height: 300px; 
+     top: 200px;
+     left: 600px;
+     display: block;
+  }
+  .logo-txt{
+    width: 200px;
+  }
+  #splLogo2{
+      display: block;
+  }
+  .main-page{
+    /* width: 100vw;
+    height: 100vh; */
+   display: none;
+    margin-top: 0px;
+  }
+  .contact-nav-btn{
+      color: #247AE2;
+      border-radius: 10px;
+      border: 1px solid #247AE2;
+      background: transparent;
+      width: 40px;
+      padding: 5px;
+      font-size: 20px;
+  }
+  .yellow-large-curve{
+      position: relative;
+      width: 1200px;
+      margin-top: 100px;
+  }
+  .ask{
+      flex-direction: row;
+      position: absolute;
+      left: 1130px;
+      top: 850px;
+  }
+  .ask-mbl{
+      display: flex;
+      position: absolute;
+      background-color: #FED300;
+      flex-direction: row;
+      border-radius: 50px;
+      padding: 20px;
+      width: 220px;
+      top: 1200px;
+      left: 100px;
+      font-size: 13px;
+    
+  }
+  .blue-mic{
+      top: 250px;
+      left: 180px;
+      width: 400px;
+      position: absolute;
+  }
+  .contact-page-form{
+left: 630px;
+top: 350px;
+position: absolute;
+  }
+  .contact-page-label{
+      color: #247AE2;
+      float: right;
+      font-size: 15px;
+  }
+  .contact-page-field{
+    border: 1px solid #247AE2;
+    background: transparent;
+    border-radius: 30px;
+    width: 400px;
+    height: 30px;
+}
+.contact-page-field:focus{
+    background: transparent;
+    border: 1px solid #247AE2;
+    box-shadow: none;
+    outline: none;
+}
+.contact-page-btn{
+    background-color: #247AE2;
+    border-radius: 30px;
+    width: 70px;
+    margin-top: 10px;
+    padding: 0px;
+}
+.contact-page-btn:hover{
+    background-color: #FED300;
+    color: #247AE2;
+}
+.contact-page-rectangle{
+    position: absolute;
+    background-color: #247AE2;
+    width: 100%;
+    height: 500px;
+    top: 950px;
+    left: 0px;
+   border-radius: 0px 0px 150px 150px;
+}
+.our-work{
+    padding: 30px;
+}
+.contact-work-carousel{
+    display: block;
+    padding: 20px 0px 50px 120px;
+}
+.contact-page-carousel-img{
+height: 250px;
+border-radius: 30px;
+}
+.journy-heading{
+    font-size: 30px;
+}
+.guarantee-txt{
+    font-size: 20px;
+}
+  @media (min-width: 1441px) and (max-width: 5000px) {
+    .unleash-text{
+        left: 1246px;
+        top:265px;
+        font-size: 70px;
+    }
+    .sol-heading{
+        background-position-x: 867px;
+    }
+    .inside-heading{
+        background-position-x: 867px;
+    }
+    .contact {
+        margin-left: 700px;
+    }
+    .stamp{
+        left: 600px;
+    }
+    .y-curve{
+        transform: rotate(60deg);
+        position: relative;
+        width: 300px;
+        margin-left: -700px;
+    }
+    .contact-stamp{
+        right: 400px;
+        margin-top: -50px;
+    }
+    .thanks-message{
+        width: 1000px;
+        margin-left: 500px;
+        margin-top: -300px;
+    }
+    .header-line{
+        width: 1500px;
+    }
+    .blue-line{
+        width: 1500px;
+    }
+    .blue-curve-top{
+        left: -470px;
+        top:250px;
+         }
+         .work-container{
+             left: 40px;
+             width: 100%;
+         }
+         .splash-logo{
+            width: 300px;
+            top: 430px;
+            left: 400px;
+            
+        }
+        .team-carousel{
+            margin-top: -20px;
+        }
+        .team-img{
+            width: 380px;
+            height: 400px;
+        }
+        .sliding-logo{
+           top: 430px;
+           left: 850px;
+        }
+        .work-footer{
+            margin-top: 900px;
+        }
+        .lets{
+            left: 40%;
+        }
+        .portfolio-btn{
+            left: 550%;
+        }
+        .cl-img{
+            margin-left: 600%; 
+        }
+        .client-heading{
+            left: 780px;
+        }
+        .cntct-heading{
+            left: 750px;
+        }
+        .rectangle2{
+            height: 550px;
+        }
+        .modal.show .modal-dialog{
+            margin-left: 350px;
+        }
+        .contact-modal{
+            margin-left: 400px;
+        }
+        .blue-mic{
+            left: 450px;
+        }
+        .ask{
+            left: 1430px;
+        }
+        .contact-page-form{
+            left: 900px;
+        }
+        
+
+ }
+
+ @media (min-width: 1350px) and (max-width: 1440px) {
+    .unleash-text{
+        left: 794px;
+        top:265px;
+        font-size: 70px;
+    }
+ }
+@media (min-width: 750px) and (max-width: 850px) {
+ .navbar-toggler{
+	 left:650px;
+ }
+.inside-heading{
+	background-position-x:383px;
+}
+}
+ @media screen and (max-width: 450px) {
+     html{
+        overflow-x: hidden !important;
+     }
+     body{
+         overflow-x: hidden !important;
+     }
+     .d-n-xs{
+         display: none;
+     }
+     .visible-xs{
+         display: block !important;
+     }
+     #contct-mbl-menu{
+         display: flex;
+         flex-direction: row !important;
+     }
+    .header-main{
+        height: 350px;
+        background-position: left;
+     }
+     .header-bar{
+        height: 70px; 
+     }
+     .header-logo, .work-header-logo{
+         width: 130px;
+         height: 52px;
+         margin-left: 0px;
+     }
+     .work-header-main{
+         height: 280px;
+     }
+     .contact-page-header{
+         height: 300px;
+     }
+     .journy-heading{
+         font-size: 20px;
+     }
+     .guarantee-txt{
+         font-size: 15px;
+         padding: 10px 30px;
+     }
+     .work-navbar{
+         margin-left: 0px;
+         margin-right: 0px;
+     }
+     .header-line{
+         width: 150px;
+     }
+     .blue-line{
+         width: 150px;
+     }
+     .home-icon{
+         margin-right: 20px;
+         margin-top: -20px;
+     }
+     .splash-two{
+        margin-left: -30px;
+    }
+    .splash-logo{
+        top: 360px;
+        left: 30px;
+        width: 180px;
+    }
+     .sliding-logo{
+         top: 360px;
+         left: 140px;
+     }
+     #hide_r{
+         margin-right: 30px !important;
+     }
+     #splLogo2{
+         width: 100px;
+     }
+     #hide_txt{
+         width: 120px;
+     }
+     .work-heading{
+        font-size: 100px;
+        margin-top: 100px;
+    }
+     .inside-img{
+         width: 40px;
+         height: 45px;
+     }
+     .inside-heading{
+         font-size: 30px;
+         background-position-x: 163px;
+         background-size: 40px;
+         height: 70px;
+         background-position-y: 0px;
+     }
+     .inside-text{
+         font-size: 20px;
+         margin: 40px 20px 40px 20px;
+     }
+     .team{
+         font-size: 30px;
+     }
+     .rectangle{
+         margin-top: 70px;
+     }
+     .team-card{
+         top: -20px;
+     }
+     .card-txt{
+         margin-top: -30px;
+         font-size: 25px;
+     }
+     .team-carousel{
+        margin-top: -50px;
+    }
+.client-carousel{
+    padding: 50px 40px;
+}
+.client-icon{
+    width: 150px;
+}
+     .solutions{
+        top: 350px;
+     }
+     .sol-heading{
+         font-size: 30px;
+         background-position-x: 163px;
+         background-size: 40px;
+         height: 70px;
+         background-position-y: 0px;
+     }
+     .sol-row{
+        top: 450px;
+    }
+    .sol-icon{
+        height: 80px;
+        width: 120px;
+    }
+    .lets{
+        padding: 10px;
+        left: 25%;
+        width: 50%;
+        font-size: 15px;
+    }
+    .work-col{
+        padding-left: 30px;
+    }
+    .blue-box{
+        width: 150px;
+        top: 10px;
+    }
+    .happy-cloud{
+        width: 200px;
+        height: 200px;
+    }
+    .work-head{
+        font-size: 50px;
+    }
+    .contact-btn{
+        width: 150px !important;
+        padding: 9px;
+        margin-top: 10px;
+    }
+
+    .yellow-curve{
+        left: -50px;
+        top: 10px;
+        width: 330px;
+    }
+    .a-c{
+        width: 180px;
+        height: 180px;
+    }
+    .a-c-col{
+        margin-top: 90px !important;
+        padding-left: 40px !important;
+    }
+    .brand-row{
+        margin-top: 0px;
+     }
+     .portfolio-btn{
+        left: 250%;
+        font-size: 15px;
+        width: 200px;
+    }
+    .client-heading{
+        left: 120px;
+        font-size: 30px;
+        top: 10px;
+    }
+    .rectangle2{
+        margin-bottom: 20px;
+        height: 380px;
+        margin-top: 70px;
+    }
+    .contact{
+        margin: -130px 30px 0px 30px;
+        width: auto;
+    }
+    .contact-form{
+        padding: 40px 40px;
+        width: auto;
+    }
+    .stamp{
+        left: 5px;
+        width: 60px;
+        margin-top: -50px; 
+    }
+    .blue-curve{
+        width: 150px;
+        margin-left: 250px;
+    }
+    .contact-stamp{
+        margin-top: 0px;
+        right: 30px;
+        width: 60px;
+    }
+    .thanks-message{
+        padding: 20px;
+        width: auto;
+        height: auto;
+       margin: 70px 30px;
+        font-size: 20px;
+    }
+    .footer{
+        margin-top: 300px;
+    }
+    #contactModal{
+        width: auto;
+    }
+    .pr-dialog{
+        margin: 0px;
+        max-width: 340px !important;
+    }
+    .pr-body{
+        padding: 20px;
+    }
+    .pr-row-two{
+        margin: 40px 10px;
+    }
+    .pr-row-three{
+        margin: 20px 10px;
+    }
+    .project-images{
+        padding: 20px 10px;
+    }
+    .pr-project-img{
+        width: 220px;
+    }
+    .blue-curve-top{
+        left: -20px;
+        width: 50px;
+        top: 0px;
+    }
+    .tabs{
+        padding: 50px 10px 10px 10px;
+        margin-left: 0px;
+    }
+    .work-row{
+        padding: 20px 10px;
+    }
+    .add-padding{
+        padding-bottom: 15px;
+    }
+    .work-footer{
+        margin-top: 1800px;
+    }
+    .modal.show .modal-dialog{
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    .pr-logo{
+        width: 150px;
+    }
+    .team-img{
+        width: 380px;
+        height: 350px;
+    }
+    .contact-modal{
+        margin-left: 15px;
+    }
+    #home-mbl-menu{
+        background: #247AE29f;
+        padding: 50px 150px 50px 10px;
+        width: 100%;
+        margin: 0px 20px !important;
+     }
+     .navbar-dark #home-mbl-menu .nav-link a.active{
+        color: #FED300 !important;
+        padding: 40px;
+        font-size: 30px;
+    }
+     .navbar-dark #home-mbl-menu .nav-link a{
+        color: white !important;
+        padding: 40px;
+        font-size: 30px;
+    }
+    .contact-nav-btn{
+        margin-top: -10px;
+    }
+    .yellow-large-curve{
+        width: 440px;
+        margin-top: -350px;
+        margin-left: -20px;
+        transform: rotate(-30deg);
+    }
+    .blue-mic{
+        top: 170px;
+        left: 80px;
+        width: 220px;
+    }
+    .contact-page-form{
+        left: 30px;
+        top: 650px;
+    }
+    .contact-page-field{
+        width: 320px;
+    }
+    .contact-page-rectangle{
+        top: 1350px;
+        height: 380px;
+        border-radius: 0px 0px 80px 80px;
+    }
+    .contact-page-footer{
+        margin-top: 900px;
+        bottom: 0px;
+    }
+    .contact-work-carousel{
+        padding: 20px 0px 50px 20px;
+    }
+    .contact-page-carousel-img{
+        height: 150px;
+    }
+  }
+  @media screen and (max-width: 370px) {
+      .splash-logo{
+          top: 300px;
+      }
+      .sliding-logo{
+          top: 300px;
+      }
+      #hide_r{
+          margin-right: 60px !important;
+      }
+      .header-line{
+          width: 110px;
+      }
+      .blue-line{
+          width: 110px;
+      }
+      .work-col{
+          padding-left: 20px;
+      }
+.work-head{
+    font-size: 40px;
+}
+.yellow-curve{
+    top: 30px;
+    width: 300px;
+}
+.a-c-col{
+    padding-left: 28px !important;
+}
+.blue-curve{
+    margin-left: 220px;
+}
+.work-footer{
+    margin-top: 1600px;
+}
+.modal.show .modal-dialog{
+    margin-left: -10px;
+}
+.pr-project-img{
+    width: 260px;
+}
+.team-img{
+    width: 380px;
+    height: 350px;
+}
+.contact-body{
+    padding: 30px;
+}
+  }

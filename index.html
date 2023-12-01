@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blue Banana</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/app.js"></script>
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body >
+        <div class="splash-one" id="screen_one">
+        </div>
+        <div class="splash-two d-n-xs" id="screen_two">
+          <img src="images/footer-logo.png" alt="sliding-logo" id="splLogo" class="splash-logo"/>
+        </div>
+        <div class="splash-three" id="screen_three">
+          
+            <div class="sliding-logo" id="sliding-logo">
+              <img src="images/Group 3.png" class="float-right" id="hide_r"/><br/>
+              <img src="images/footer-logo.png" id="splLogo2" /><br/>
+              <img src="images/Group 2.png" alt="" class="float-left logo-txt" id="hide_txt">
+            </div>
+         
+        
+        </div>
+        <div class="main-page " id="main_screen">
+            <div class="header-main main-section" id="home">
+                <nav class="navbar navbar-expand-lg navbar-dark header-bar">
+                    <a class="navbar-brand" href="#">
+                        <img class=" header-logo" src="images/Layer 2.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon">
+                        <i class="fa fa-navicon" ></i>
+                      </span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav ml-auto mt-2 mt-lg-0 float-right text-white" id="home-mbl-menu">
+                        <li class="nav-item">
+                            <div class="nav-link"><a data-toggle="formtab" id="homeTab" class="active" href="#home">Home</a></div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link"><a data-toggle="formtab" id="insideTab" href="#inside">Inside</a></div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link"><a data-toggle="formtab" href="#solutions">Solutions</a></div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link"><a data-toggle="formtab" href="#work" onclick="window.open('work.html')">Work</a></div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link"><a data-toggle="formtab" href="#clients">Client</a></div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link"><a data-toggle="formtab" href="#contact-form" onclick="window.open('contact.html')">Contact Us</a></div>
+                        </li>
+                       
+                      </ul>
+                    </div>
+                  </nav>
+                  <div class="unleash-text">
+                      Unleash <br/> your inner
+                  </div>
+               </div>
+        <!--Inside Section-->
+            <div class="main-section text-center pt-50" id="inside">
+                <div class="p-r">
+                    <!-- <img src="images/curve.png" alt="curve" class="inside-img"> -->
+                    <h3 class="inside-heading"> Inside</h3>
+                        </div>
+                        <p class="inside-text">
+                            Creative agency that provides various services to help healthcare institutes. We offer your needs of design, content and visual identity, all the way to 
+                            the marketing services that fit in the sensitivity of healthcare; we help to bring the right client at the righ ttime, for the right services.
+                    
+                        </p>
+                        <div class="team text-center"> our team </div>
+                        <div class="p-a ">
+                            <div class="row mt-20">
+                                <div class="owl-carousel owl-theme team-carousel" id="team-carousel">
+                                    <div class="item">
+                                        <div class="card team-card">
+                                        <img src="images/Screen Shot 2022-04-09 at 3.45.07 PM.png" alt="team img" class="team-img">
+                                        <p class="text-white card-txt"> Name </p>
+                                        <p class="card-txt yellow mt--20">Job Title</p>
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card team-card">
+                                            <img src="images/Screen Shot 2022-04-09 at 3.45.10 PM.png" alt="team img" class="team-img">
+                                            <p class="text-white card-txt"> Name </p>
+                                        <p class="card-txt yellow mt--20">Job Title</p>
+                                          </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card team-card">
+                                            <img src="images/Screen Shot 2022-04-09 at 3.45.13 PM.png" alt="team img" class="team-img">
+                                            <p class="text-white card-txt"> Name </p>
+                                        <p class="card-txt yellow mt--20">Job Title</p>
+                                          </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card team-card">
+                                            <img src="images/Screen-Shot-2022-04-09-at-3.45.02-PM.png" alt="team img" class="team-img">
+                                            <p class="text-white card-txt"> Name </p>
+                                        <p class="card-txt yellow mt--20">Job Title</p>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>                 
+                        </div>
+            </div>           
+            <div class="rectangle text-center main-section" id="solutions"> 
+            
+                <div class="p-r solutions text-center" >
+                    <h3 class="sol-heading"> Solutions</h3>
+                        </div>
+                        <div class="row text-center p-a sol-row">
+                            <div class="col-1">
+                                
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img src="images/Group 5.svg" class="sol-icon"/>
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg"  class="sol-icon" viewBox="0 0 226.674 149.584">
+                                    <g id="Group_5" data-name="Group 5" transform="translate(-458.331 -458.068)">
+                                      <path id="Path_49" data-name="Path 49" d="M607.107,520.382a6.688,6.688,0,0,0,10.111,0,8.105,8.105,0,0,0,2.047-5.538V465.861a8.071,8.071,0,0,0-2.384-5.836,6.711,6.711,0,0,0-5.608-1.9,6.552,6.552,0,0,0-1.11.319L463.433,505.984a7.128,7.128,0,0,0-3.686,2.779,8.218,8.218,0,0,0-1.416,4.633v33.831a8.219,8.219,0,0,0,1.416,4.634,7.163,7.163,0,0,0,3.686,2.779l20.337,6.6,10.28,40.687a7.764,7.764,0,0,0,2.551,4.131,6.679,6.679,0,0,0,4.329,1.589H524.6a6.9,6.9,0,0,0,5.651-3.023,8.269,8.269,0,0,0,1.223-6.727l-5.839-23.115,84.532,27.389a6.519,6.519,0,0,0,2,.312,6.722,6.722,0,0,0,4.255-1.542,8,8,0,0,0,2.851-6.183V540.623a8.125,8.125,0,0,0-2.047-5.537,6.7,6.7,0,0,0-10.111,0,8.124,8.124,0,0,0-2.047,5.537v43.75l-132.532-42.86v-22.4l132.532-42.861v38.588A8.1,8.1,0,0,0,607.107,520.382ZM499.9,566.483l9.612,3.058,5.77,22.639H506.4l-6.513-25.7Z" transform="translate(0)" fill="#fff"/>
+                                      <g id="Group_4" data-name="Group 4" transform="translate(641.905 472.298)">
+                                        <path id="Path_50" data-name="Path 50" d="M638.982,524.163A7.835,7.835,0,0,0,646.818,532H662.49a7.837,7.837,0,0,0,0-15.673H646.818a7.835,7.835,0,0,0-7.836,7.836Z" transform="translate(-627.227 -465.536)" fill="#ffd400"/>
+                                        <path id="Path_51" data-name="Path 51" d="M633.027,494.767a7.836,7.836,0,0,0,11.08,11.078l11.754-11.754a7.836,7.836,0,0,0-11.078-11.078Z" transform="translate(-630.73 -480.858)" fill="#ffd400"/>
+                                        <path id="Path_52" data-name="Path 52" d="M630.773,551.523a7.812,7.812,0,0,0,2.3,5.54l11.754,11.754A7.837,7.837,0,0,0,655.9,557.738l-11.754-11.754a7.836,7.836,0,0,0-13.375,5.539Z" transform="translate(-630.773 -453.715)" fill="#ffd400"/>
+                                      </g>
+                                    </g>
+                                  </svg> -->
+                                <p class="yellow"> Digital Marketing</p>
+                                <p class="text-white d-n-xs fs-13"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img src="images/Group 6.svg" class="sol-icon"/>
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg"  class="sol-icon" viewBox="0 0 189.065 201.673">
+                                    <g id="Group_6" data-name="Group 6" transform="translate(-752.79 -430.751)">
+                                      <path id="Path_53" data-name="Path 53" d="M835.7,455.961a6.3,6.3,0,0,0,6.3-6.3V437.053a6.3,6.3,0,0,0-12.605,0v12.605a6.3,6.3,0,0,0,6.3,6.3Z" transform="translate(11.622 0)" fill="#ffd400"/>
+                                      <path id="Path_54" data-name="Path 54" d="M805.116,461.891a6.3,6.3,0,0,0,8.91-8.911l-9.453-9.453a6.3,6.3,0,0,0-8.911,8.911Z" transform="translate(6.241 1.675)" fill="#ffd400"/>
+                                      <path id="Path_55" data-name="Path 55" d="M863.062,463.738a6.278,6.278,0,0,0,4.456-1.847l9.453-9.453a6.3,6.3,0,0,0-8.911-8.911l-9.453,9.454a6.3,6.3,0,0,0,4.455,10.757Z" transform="translate(15.773 1.675)" fill="#ffd400"/>
+                                      <path id="Path_56" data-name="Path 56" d="M835.7,583.971a6.3,6.3,0,0,0-6.3,6.3v12.605a6.3,6.3,0,0,0,12.605,0V590.273a6.3,6.3,0,0,0-6.3-6.3Z" transform="translate(11.622 23.244)" fill="#ffd400"/>
+                                      <path id="Path_57" data-name="Path 57" d="M867.5,577.6a6.3,6.3,0,0,0-8.911,8.911l9.454,9.453a6.3,6.3,0,0,0,8.909-8.911Z" transform="translate(15.788 22.014)" fill="#ffd400"/>
+                                      <path id="Path_58" data-name="Path 58" d="M805.146,577.6l-9.454,9.453a6.3,6.3,0,1,0,8.911,8.911l9.454-9.453a6.3,6.3,0,0,0-8.911-8.911Z" transform="translate(6.211 22.014)" fill="#ffd400"/>
+                                      <path id="Path_59" data-name="Path 59" d="M940.6,522.007a160.72,160.72,0,0,0-26.248-26.36,134.042,134.042,0,0,0-29.341-18.169,88.558,88.558,0,0,0-75.382,0,134.633,134.633,0,0,0-29.341,18.169,160.742,160.742,0,0,0-26.25,26.36h0a6.307,6.307,0,0,0,0,7.54,160.8,160.8,0,0,0,26.25,26.359,134,134,0,0,0,29.341,18.17,88.558,88.558,0,0,0,75.382,0,134.634,134.634,0,0,0,29.341-18.17A160.68,160.68,0,0,0,940.6,529.547h0a6.307,6.307,0,0,0,0-7.54Zm-86.539-20.518a25.133,25.133,0,0,0-13.488,0l-9.63-16.678a44.109,44.109,0,0,1,32.749,0Zm5.861,24.287a12.6,12.6,0,1,1-3.692-8.913A12.605,12.605,0,0,1,859.926,525.776ZM829.666,507.8a25.207,25.207,0,0,0-6.766,11.67H803.658a44.118,44.118,0,0,1,16.381-28.361ZM822.9,532.078a25.215,25.215,0,0,0,6.755,11.67l-9.614,16.69a44.115,44.115,0,0,1-16.382-28.361Zm8.036,34.663,9.63-16.678a25.129,25.129,0,0,0,13.486,0l9.643,16.678a44.123,44.123,0,0,1-32.75,0Zm34.028-22.993a25.2,25.2,0,0,0,6.779-11.67H891a44.116,44.116,0,0,1-16.382,28.361Zm6.779-24.274a25.208,25.208,0,0,0-6.756-11.67l9.616-16.69a44.116,44.116,0,0,1,16.382,28.361Zm-104.528,6.3a158.789,158.789,0,0,1,21.2-20.483c2.757-2.186,5.8-4.459,9.139-6.7a56.589,56.589,0,0,0,0,54.358c-3.336-2.233-6.4-4.505-9.139-6.7a158.854,158.854,0,0,1-21.2-20.482Zm139.01,20.482c-2.757,2.187-5.8,4.459-9.137,6.7a56.6,56.6,0,0,0,0-54.358c3.336,2.233,6.4,4.505,9.137,6.7a158.7,158.7,0,0,1,21.2,20.482,158.714,158.714,0,0,1-21.2,20.483Z" transform="translate(0 5.811)" fill="#fff"/>
+                                    </g>
+                                  </svg> -->
+                                <p class="yellow"> Branding & Design</p>
+                                <p class="text-white d-n-xs  fs-13"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                           
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img src="images/Group 10.svg" class="sol-icon"/>
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg"  class="sol-icon" viewBox="0 0 137.331 170.373">
+                                    <g id="Group_10" data-name="Group 10" transform="translate(-1049.302 -417.751)">
+                                      <g id="Group_9" data-name="Group 9" transform="translate(1094.965 417.751)">
+                                        <path id="Path_60" data-name="Path 60" d="M1122.07,438.867a5.278,5.278,0,0,0,5.279-5.279V423.03a5.279,5.279,0,1,0-10.557,0v10.559a5.278,5.278,0,0,0,5.279,5.279Z" transform="translate(-1082.573 -417.751)" fill="#ffd400"/>
+                                        <path id="Path_61" data-name="Path 61" d="M1090.691,445.628a5.279,5.279,0,0,0,7.464-7.464l-7.918-7.918a5.279,5.279,0,0,0-7.464,7.464Z" transform="translate(-1081.321 -418.141)" fill="#ffd400"/>
+                                        <path id="Path_62" data-name="Path 62" d="M1149.431,447.175a5.256,5.256,0,0,0,3.731-1.547l7.918-7.918a5.279,5.279,0,0,0-7.464-7.464l-7.918,7.919a5.279,5.279,0,0,0,3.733,9.01Z" transform="translate(-1083.539 -418.141)" fill="#ffd400"/>
+                                      </g>
+                                      <path id="Path_63" data-name="Path 63" d="M1186.633,536.76a14.275,14.275,0,0,0-3.878-9.692,14.3,14.3,0,0,0,3.7-9.495c0-8.167-7.1-14.813-15.837-14.813h-28.455a91.053,91.053,0,0,0,3.805-23.228v-4.755c0-10.789-9.384-19.567-20.918-19.567h-5.083a5.753,5.753,0,0,0-5.592,4.208l-2.725,10.2c-3.474,13.15-14.894,29.1-27.5,32.52a15.818,15.818,0,0,0-14.466-8.714H1049.3v10.946h20.375a4.188,4.188,0,0,1,4.315,4.037v66.061a4.188,4.188,0,0,1-4.315,4.037H1049.3v10.946h20.375A15.967,15.967,0,0,0,1083.7,581.5l16.75,5.273a59.975,59.975,0,0,0,17.883,2.672h42.3c8.731,0,15.836-6.644,15.836-14.813a15.2,15.2,0,0,0-.811-4.671,15.141,15.141,0,0,0,10.978-14.181,14.432,14.432,0,0,0-3.722-9.5A14.3,14.3,0,0,0,1186.633,536.76Zm-32.2-9.24a5.99,5.99,0,0,0,6.016,5.036h9.985a4.047,4.047,0,1,1,0,8.075h-10.167a5.484,5.484,0,1,0,0,10.944h10.167a4.047,4.047,0,1,1,0,8.075h-10.167a5.485,5.485,0,1,0,0,10.945,4.046,4.046,0,1,1,0,8.074h-42.119a51.141,51.141,0,0,1-14.077-2.086l-18.56-5.735v-57.48c7.768-1.594,15.51-6.395,22.431-13.919a68.733,68.733,0,0,0,15.07-26.961l1.681-6.161h.353c5.182,0,9.4,3.944,9.4,8.792v4.755a73.023,73.023,0,0,1-3.355,19.734l-4.173,14.1h43.516a4.046,4.046,0,1,1,0,8.074h-10.167a5.677,5.677,0,0,0-5.85,5.472Z" transform="translate(0 -1.322)" fill="#fff"/>
+                                    </g>
+                                  </svg> -->
+                                <p class="yellow"> Social Media</p>
+                                <p class="text-white d-n-xs fs-13"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                           
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img src="images/Group 19.svg" class="sol-icon"/>
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg"  class="sol-icon" viewBox="0 0 147.918 165.215">
+                                    <g id="Group_19" data-name="Group 19" transform="translate(-1217.042 -2720)">
+                                      <path id="Path_67" data-name="Path 67" d="M1438.152,582.966a21.079,21.079,0,0,0,21.079-21.079V503.445a21.078,21.078,0,0,0-21.079-21.078h-11.118l-2.054-9.17h0a10.539,10.539,0,0,0-10.276-8.246h-42.156a10.539,10.539,0,0,0-10.276,8.246l-2.054,9.17h-27.824a21.076,21.076,0,0,0-21.079,21.078v58.442a21.078,21.078,0,0,0,21.079,21.079Zm-116.327-21.079V503.445a10.536,10.536,0,0,1,10.539-10.538h32.144a5.268,5.268,0,0,0,5.269-4.111l2.978-13.175h42.158l2.977,13.175a5.27,5.27,0,0,0,5.269,4.111h15.361a10.536,10.536,0,0,1,10.539,10.538v58.442a10.54,10.54,0,0,1-10.539,10.54H1332.389a10.541,10.541,0,0,1-10.54-10.54Z" transform="translate(-94.271 2302.249)" fill="#fff"/>
+                                      <path id="Path_68" data-name="Path 68" d="M1392.965,563.811a35.515,35.515,0,1,0-25.088-10.4,35.495,35.495,0,0,0,25.088,10.4Zm0-60.44a24.977,24.977,0,1,1-17.636,7.316A24.952,24.952,0,0,1,1392.965,503.371Z" transform="translate(-94.271 2302.249)" fill="#fff"/>
+                                      <path id="Path_64" data-name="Path 64" d="M1391.963,439.64a5.473,5.473,0,0,0,5.473-5.472V423.223a5.473,5.473,0,0,0-10.945,0v10.945a5.473,5.473,0,0,0,5.472,5.472Z" transform="translate(-94.271 2302.249)" fill="#ffd400"/>
+                                      <path id="Path_65" data-name="Path 65" d="M1360.735,446.244a5.472,5.472,0,0,0,7.736-7.737l-8.208-8.208a5.473,5.473,0,0,0-7.737,7.737Z" transform="translate(-94.271 2302.249)" fill="#ffd400"/>
+                                      <path id="Path_66" data-name="Path 66" d="M1419.324,447.848a5.447,5.447,0,0,0,3.868-1.6l8.209-8.208a5.473,5.473,0,0,0-7.737-7.737l-8.208,8.209a5.472,5.472,0,0,0,3.868,9.34Z" transform="translate(-94.271 2302.249)" fill="#ffd400"/>
+                                    </g>
+                                  </svg> -->
+                                <p class="yellow"> Photography & Motion</p>
+                                <p class="text-white d-n-xs fs-13"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                           
+                            </div>
+                            <div class="col-md-2 col-sm-12 col-xs-12">
+                                <img src="images/Group 14.svg" class="sol-icon"/>
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="sol-icon" viewBox="0 0 92.17 167.237">
+                                    <g id="Group_14" data-name="Group 14" transform="translate(-1579.809 -415.703)">
+                                      <path id="Path_69" data-name="Path 69" d="M1625.894,437.591a5.471,5.471,0,0,0,5.472-5.472V421.175a5.472,5.472,0,1,0-10.944,0v10.944a5.47,5.47,0,0,0,5.472,5.472Z" fill="#ffd400"/>
+                                      <path id="Path_70" data-name="Path 70" d="M1594.665,444.2a5.473,5.473,0,0,0,7.737-7.737l-8.208-8.208a5.473,5.473,0,0,0-7.737,7.737Z" fill="#ffd400"/>
+                                      <path id="Path_71" data-name="Path 71" d="M1653.254,445.8a5.453,5.453,0,0,0,3.869-1.6l8.208-8.208a5.473,5.473,0,0,0-7.737-7.737l-8.208,8.208a5.473,5.473,0,0,0,3.868,9.341Z" fill="#ffd400"/>
+                                      <path id="Path_72" data-name="Path 72" d="M1607.656,568.82h14.12v10.2a3.922,3.922,0,1,0,7.844,0v-10.2H1645.7c14.119,0,26.278-12.158,26.278-26.278v-7.06a3.706,3.706,0,0,0-3.922-3.922h-20a26.452,26.452,0,0,0-18.434,7.845v-20.4a33.253,33.253,0,0,0-3.922-66.284,32.978,32.978,0,0,0-33.338,32.946,33.437,33.437,0,0,0,29.416,32.946v21.572a28.5,28.5,0,0,0-20-8.629h-18.042a3.706,3.706,0,0,0-3.922,3.922v5.491A27.954,27.954,0,0,0,1607.656,568.82Zm40.4-29.415h16.081v3.137c0,9.806-8.629,18.434-18.434,18.434H1629.62v-3.137C1629.62,548.033,1638.249,539.405,1648.054,539.405Zm-47.85-53.736a25.494,25.494,0,1,1,25.494,25.494A25.443,25.443,0,0,1,1600.2,485.669Zm-12.551,53.736h14.12a20.086,20.086,0,0,1,20,20v1.569h-14.12a20.087,20.087,0,0,1-20-20Z" fill="#fff"/>
+                                      <path id="Path_73" data-name="Path 73" d="M1629.62,503.718v-1.961a10.4,10.4,0,0,0,6.275-9.414v-.784a9.893,9.893,0,0,0-10.2-10.2,2.353,2.353,0,1,1,0-4.706h6.275a3.922,3.922,0,0,0,0-7.844h-2.353v-1.177a3.922,3.922,0,0,0-7.844,0V469.6a10.4,10.4,0,0,0-6.276,9.413,9.893,9.893,0,0,0,10.2,10.2,2.53,2.53,0,0,1,2.353,2.353v.784a2.531,2.531,0,0,1-2.353,2.354h-5.883a3.922,3.922,0,1,0,0,7.844h1.961v1.177a3.922,3.922,0,1,0,7.844,0Z" fill="#fff"/>
+                                    </g>
+                                  </svg> -->
+                                  
+                                <p class="yellow"> Business Development</p>
+                                <p class="text-white d-n-xs fs-13"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                           
+                            </div>
+                            <div class="col-1">
+        
+                            </div>
+                        </div>
+                    <button type="button" data-toggle="modal" data-target="#contactModal"class="lets"> Let's Start Something Great Together!</button>
+            </div>
+            <!--Work Section-->
+            <div id="work" class="main-section">
+            <div class="p-r mt-20 text-center">
+                <h3 class="inside-heading"> Work</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 align-left work-col">
+                            <p class="blue fs-20"> Brand & Design</p>
+                            <h1 class="yellow work-head">Happy Cloud</h1>
+                            <p class="blue d-n-xs fs-15">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                            </p>
+                            <button type="submit" class="btn btn-primary float-left contact-btn w-200" data-toggle="modal" data-target="#projectModal">View full project</button>
+                        </div>
+                        <div class="col-6">
+        <img src="images/Rectangle 4.png" class="p-r blue-box"/>
+        <img src="images/happy-cloud.PNG" class="p-a happy-cloud"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="images/Path 75.png" class="p-r yellow-curve"/>
+                            <img src="images/a&c.PNG" class="p-a a-c"/>
+                                            </div>
+                        <div class="col-6 align-right pl-80 mt-60 a-c-col">
+                            <p class="blue fs-20"> Social Media</p>
+                            <h1 class="yellow work-head">A & C <br/> Social</h1>
+                            <p class="blue d-n-xs fs-15">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                            </p>
+                            <button type="submit" class="btn btn-primary float-left contact-btn w-200" data-toggle="modal" data-target="#projectModal">View full project</button>
+                        </div>
+                        
+                    </div>
+                    <div class="row brand-row">
+                        <div class="col-6 align-left work-col">
+                            <p class="blue fs-20"> Photography & Motion</p>
+                            <h1 class="yellow work-head">Brand <br/> Name</h1>
+                            <p class="blue d-n-xs fs-15">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                            </p>
+                            <button type="submit" class="btn btn-primary float-left contact-btn w-200" data-toggle="modal" data-target="#projectModal">View full project</button>
+                        </div>
+                        <div class="col-6">
+        <img src="images/Rectangle 4.png" class="p-r blue-box"/>
+        <img src="images/brand.PNG" class="p-a happy-cloud"/>
+                        </div>
+                    </div>
+                </div>
+                    <!--Clients Section-->
+                    <div class="rectangle2 main-section" id="clients">
+                        <center>
+                            <button type="button" class="portfolio-btn"> <a href="work.html">view our full portfolio </a></button>
+                            <div class="p-r mt-30">
+                                <h3 class="sol-heading"> Clients</h3>
+                                    </div>
+                           </center>
+                           <div class="owl-carousel owl-theme client-carousel" id="client-carousel">
+                            <div class="item">
+                                <img src="images/icon 1.png" alt="rabiah-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon 2.png" alt="happycloud-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon3.png" alt="tuileries-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon 4.png" alt="kaec-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon5.png" alt="noon-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon 6.png" alt="monalisa-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon 7.png" alt="client-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon 8.png" alt="a&c-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon 9.png" alt="rabiah-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon 10.png" alt="rabiah-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon 11.png" alt="rabiah-icon" class="client-icon"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/icon 12.png" alt="rabiah-icon" class="client-icon"/>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Contact us Section-->
+                    <div class="p-r text-center main-section">
+                        <h3 class="inside-heading cntct-heading"> contact us</h3>
+                            </div>
+                           <div id="contact-form">
+                            <center>
+                                <img class="blue-curve p-r z-1" src="images/Path 79.png" alt="blue-curve"/>
+                                <img src="images/stamp.png" class="p-a stamp z-3" alt="stamp"/>
+                              
+                                <div class="contact text-center p-a z-2">
+                                   
+                                    <p class="blue float-left"> Let's talk about you </p><br/>
+                                    <br/>
+                                    
+                                        <div class="contact-form text-center">
+                                            <form>
+                                                <div class="form-group d-flex">
+                                                    <label class="contact-txt">Name:</label>
+                                                    <input type="text" class="form-control contact-field ml-20">
+                                                  </div>
+                                                  <div class="form-group d-flex">
+                                                      <label class="contact-txt">Email:</label>
+                                                      <input type="email" class="form-control contact-field ml-20">
+                                                  </div>
+                                                  <div class="form-group d-flex">
+                                                      <label class="contact-txt">Phone:</label>
+                                                      <input type="text" class="form-control contact-field ml-20">
+                                                  </div>
+                                                  <div class="form-group d-flex">
+                                                      <label class="contact-txt">Message:</label>
+                                                      <input type="text" class="form-control contact-field">
+                                                  </div>
+                                                
+                                        </div>
+                                    <button class="btn btn-primary float-right contact-btn" id="send-message">Send</button>
+                                </form>
+                                </div>
+        
+                            </center>
+                           </div>
+                           <div id="contact-message" >
+                               <center>
+                                   <img src="images/curve.png" alt="curve" class="y-curve z-1 d-n-xs"/>
+                                   <img src="images/stamp.png" alt="stamp" class="z-3 float-right p-a contact-stamp"/>
+                                   <div class="thanks-message z-2">
+                                       <p class="yellow"> thanks for your message</p>
+                                       <p class="text-white"> We will back to you with 48 hours</p>
+                                   </div>
+                               </center>
+                           </div>
+        
+                            <!--Footer-->
+        
+                            <footer class="footer">
+                                <center>
+                                <img src="images/footer-logo.png" alt="footer-logo" class="footer-logo"/>
+                               
+                                    <div class="footer-content">
+                                        <div class="row d-flex justify-evenly">
+                                            <img src="images/instagram.png" alt="insta" class="social-icon"/>
+                                            <img src="images/twitter.png" alt="twitr" class="social-icon"/>
+                                            <img src="images/facebook.png" alt="fb" class="social-icon"/>
+                                        </div>
+                                        <p class="yellow text-uppercase fs-17 mt-35">
+                                             be a banana subsciber
+                                        </p>
+                                        <form class="blue mt-35">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control footer-field" placeholder="Your Name:">
+                                              </div>
+                                              <div class="form-group">
+                                                  <input type="email" class="form-control footer-field" placeholder="Your Email:">
+                                              </div>
+                                              <button type="submit" class="btn btn-primary footer-contact-btn" >Sign me up</button>
+                                        </form>
+                                        <p class="footer-copyright"> &copy; 2022 blue banana. All Rights Reserved</p>
+                                    </div>
+                                </center>
+                            </footer>
+           
+        </div>         
+
+
+<!--Contact Modal-->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-contact" role="document">
+      <div class="modal-content contact-modal">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><img class="contact-close" src="images/Icon material-close.png" alt="close icon"/></span>
+          </button>
+          <form>
+    <div class="modal-body contact-body">
+                <div class="form-group d-flex">
+                  <label class="contact-txt">Name:</label>
+                  <input type="text" class="form-control contact-field ml-20">
+                </div>
+                <div class="form-group d-flex">
+                    <label class="contact-txt">Email:</label>
+                    <input type="email" class="form-control contact-field ml-20">
+                </div>
+                <div class="form-group d-flex">
+                    <label class="contact-txt">Phone:</label>
+                    <input type="text" class="form-control contact-field ml-20">
+                </div>
+                <div class="form-group d-flex">
+                    <label class="contact-txt">Message:</label>
+                    <input type="text" class="form-control contact-field">
+                </div>
+            </div>
+                <button type="submit" class="btn btn-primary float-right contact-btn">Send</button>
+              </form>
+        
+      </div>
+    </div>
+    </div>
+
+<!--Project Modal-->
+<div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog pr-dialog" role="document">
+      <div class="modal-content pr-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><img  class="contact-close" src="images/Icon material-close.png" alt="close icon"/></span>
+          </button>
+        <div class="modal-body pr-body">
+              <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+<h1 class="yellow"> Project Name</h1>
+<p class="text-white"> Brand & Design</p>
+<p class="text-white">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+</p>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+<img src="images/happy-cloud.PNG" alt="happy cloud" class="pr-image"/>
+                  </div>
+            </div>
+            <div class="row pr-row-two">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <center>
+<button class="pr-btn blue fs-17">
+اُلوان الھویۃ
+</button>
+<div class="row d-flex justify-evenly  pl-25 pr-25">
+        <div>
+            <div class="circle yellow-circle">
+            </div>
+            <p class="text-black fs-11">
+                #E1CC4E <br/>
+                RGB 225, 204, 78 <br/>
+                C14, M4, YB4, K0
+            </p>
+        </div>
+        <div>
+            <div class="circle blue-circle">
+            </div>
+            <p class="text-black fs-11">
+                #00B2DA <br/>
+                RGB 0, 178, 218 <br/>
+                C72, MB, YB, K0
+            </p>
+        </div>
+        <div>
+            <div class="circle black-circle">
+            </div>
+            <p class="text-black fs-11">
+                #4D4A47 <br/>
+                RGB 77, 74, 71 <br/>
+                C83, M6B, Y60, K40
+            </p>
+        </div>
+</div>
+<div class="row d-flex justify-evenly pl-25 pr-25 pb-25">
+        <div>
+            <div class="circle red-circle">
+            </div>
+            <p class="text-black fs-11">
+                #F27D90 <br/>
+                RGB 242, 125, 144 <br/>
+                C0, M64, Y25, KO
+            </p>
+        </div>
+        <div>
+            <div class="circle green-circle">
+            </div>
+            <p class="text-black fs-11">
+                #64BE78 <br/>
+                RGB 100, 190, 120 <br/>
+                C62, M0, Y71, KO
+            </p>
+        </div>
+</div>
+                    </center>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+<center>
+                  <button class="pr-btn blue fs-17">
+خطوات تصمیم الشعار
+</button>      
+<img src="images/Layer 2.png" alt="logo" class="pr-logo"/><br/> <br/><br/>
+<img src="images/Layer 2.png" alt="logo" class="pr-logo"/>
+                    </center>
+                </div>
+            </div>
+            <div class="row bg-white pr-row-three">
+                <div class="project-images">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <img src="images/happy-cloud.PNG" alt="project image" class="pr-project-img"/>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <img src="images/a&c.PNG" alt="project image" class="pr-project-img"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <img src="images/brand.PNG" alt="project image" class="pr-project-img"/>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <img src="images/happy-cloud.PNG" alt="project image" class="pr-project-img"/>
+                        </div>
+                    </div>
+                </div>
+            
+
+            </div>
+        
+      </div>
+    </div>
+    </div>
+    </div>
+       <!-- Bootstrap js-->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- OWl Carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+ $('#team-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+     nav:true,
+	navText: ["<div class='team-prev'>‹</div>", "<div class='nav-button team-next'>›</div>"],
+    responsiveClass:true,
+	autoplay: true,
+    responsiveBaseElement: 'body',
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:2,
+        },
+        1000:{
+            items:4,
+        }
+    }
+});
+ $('#client-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+	navText: ["<div class='client-prev'>‹</div>", "<div class='nav-button client-next'>›</div>"], 
+	autoplay: true,
+    responsiveClass:true,
+    responsiveBaseElement: 'body',
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+</script>
+    </body>
+</html>
